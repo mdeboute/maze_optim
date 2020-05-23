@@ -1,5 +1,6 @@
 import csv
 
+#class by Lionel Eyraud Dubois <lionel.eyraud-dubois@u-bordeaux.fr>
 class Labyrinth2D:
     """
     Class to store a 2D Labyrinth by specifying a truth value for each possible wall
