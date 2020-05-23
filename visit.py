@@ -3,7 +3,7 @@ import io
 import os
 import time
 
-
+#class by Lionel Eyraud Dubois <lionel.eyraud-dubois@u-bordeaux.fr>
 class Visit:
     """
     Describe a visit in a labyrinth
