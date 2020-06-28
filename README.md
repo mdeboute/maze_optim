@@ -1,16 +1,16 @@
-# maze
+# Maze
 
-Ceci est un projet de programmation sur la génération et visite de labyrinthe. Il y a 3 fichiers principaux:
-+ `solution_generate.py` pour générer un labyrinthe,
-+ `solution_shortest.py` pour calculer un plus court chemin,
-+ `solution_visit.py` pour faire des *visites* (sans visibilité du labyrinthe complet).
+This is a programming project about generation and labyrinth tour. There are 3 main files:
++ `solution_generate.py` for generate a labyrinth,
++ `solution_shortest.py` for calculate a shorter path,
++ `solution_visit.py` for making * visits * (without visibility of the complete labyrinth).
 
-Chacun de ces fichiers peut être exécuté en ligne de commande, et
-l'option `-h` ou `--help` donne les options utilisables. Par exemple,
+Each of these files can be run from the command line, and
+the `-h` or` --help` option gives usable options. For example,
 
 `python3 solution_generate.py --help`
 
-affiche
+displays
 
 ```
 usage: Generate a labyrinth of given size [-h] [-o FILE] [--slow] [-s]
@@ -31,7 +31,7 @@ optional arguments:
   -r X                  Remove X random walls from the labyrinth
 ```
 
-L'option de dessiner dans un fichier nécessite `wand` (basé sur
-ImageMagick, plus d'informations
-[sur leur page](https://docs.wand-py.org/)). L'affichage des visites
-dans le terminal n'est pas garanti de marcher sous Windows.
+The option to draw to a file requires `wand` (based on
+ImageMagick, more information
+[on their page] (https://docs.wand-py.org/)). Viewing visits
+in the terminal is not guaranteed to work under Windows.
