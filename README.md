@@ -1,6 +1,6 @@
 # Maze
 
-This is a programming project about generation and labyrinth tour. There are 3 main files :
+This is a programming project about generation and labyrinth tour. There are 3 main files:
 + `solution_generate.py` for generate a labyrinth,
 + `solution_shortest.py` for calculate a shorter path,
 + `solution_visit.py` for making * visits * (without visibility of the complete labyrinth).
@@ -33,5 +33,5 @@ optional arguments:
 
 The option to draw to a file requires `wand` (based on
 ImageMagick, more information
-[on their page] (https://docs.wand-py.org/)). Viewing visits
+[on their page](https://docs.wand-py.org/)). Viewing visits
 in the terminal is not guaranteed to work under Windows.
